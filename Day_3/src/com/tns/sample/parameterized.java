@@ -1,22 +1,22 @@
 package com.tns.sample;
-public class Nonparameterized
+public class parameterized
 {
-	String str;
-	int a;
-	Nonparameterized()
-	{
-		str="Sushu";
-		a=11;
-	}
-	void display()
-	{
-		System.out.println(str+" "+a);
-		
-	}
-	public static void main(String[] args)
-	{
-		Nonparameterized c=new Nonparameterized();
-		c.display();
-	}
+		String str;
+		int a;
+		parameterized(String st,int x)
+		{
+			str=st;
+			a=x;
+		}
+		void display()
+		{
+			System.out.println(str+" "+a);
+			
+		}
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			parameterized c=new parameterized("Sushu",11);
+			c.display();
+		}
 
-}
+	}
