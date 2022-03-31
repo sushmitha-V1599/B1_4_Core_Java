@@ -1,10 +1,10 @@
 package com.tns.sample;
 
-public class Constructor
+public class NonparaConstr
 {
 	String str;
 	int a;
-	Constructor()
+	NonparaConstr()
 	{
 		str="Welcome";
 		a=11; 
@@ -15,7 +15,7 @@ public class Constructor
 	}
 	public static void main(String[] args) 
 	{
-		Constructor c=new Constructor();
+		NonparaConstr c=new NonparaConstr();
 		c.display();
 	}
 
