@@ -1,5 +1,4 @@
 package com.tns.sample;
-import java.io.*;
 public class CarObjMeth 
 {
 	String brand,color;
