@@ -25,10 +25,18 @@ class OnePlus extends CellPhone
 		System.out.println("We love to play");
 	}
 }
-public static void main(String[] args) 
+class child
+{
+
+	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
+		CellPhone c=new CellPhone();
+		OnePlus o=new OnePlus();
+		c.message();
+		c.call();
+		o.games();
 
 	}
+}
 
 
