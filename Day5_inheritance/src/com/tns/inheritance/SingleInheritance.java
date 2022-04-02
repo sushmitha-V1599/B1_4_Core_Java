@@ -1,5 +1,4 @@
 package com.tns.inheritance;
-
 class Parent
 {
 	void print()

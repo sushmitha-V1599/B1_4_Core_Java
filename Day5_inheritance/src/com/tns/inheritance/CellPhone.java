@@ -27,7 +27,6 @@ class OnePlus extends CellPhone
 }
 class child
 {
-
 	public static void main(String[] args) 
 	{
 		CellPhone c=new CellPhone();
