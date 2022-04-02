@@ -1,4 +1,4 @@
-package pattern;
+package com.tns.pattern;
 
 public class HalfPyramid 
 {
