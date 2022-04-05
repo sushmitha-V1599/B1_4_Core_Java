@@ -55,6 +55,7 @@ public class Example1
  
                 case 6:
                 System.exit(0);
+                s.close();
             }  
         }
     }
