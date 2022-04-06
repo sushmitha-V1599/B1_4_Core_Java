@@ -5,8 +5,7 @@ class A
 
 	public void eat() 
 	{
-		// TODO Auto-generated method stub
-		
+	
 	}
 }
 class B extends A

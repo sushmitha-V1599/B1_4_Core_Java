@@ -1,7 +1,7 @@
 package com.tns.abstract1;
 class Aa
 {  
-	public void eat()
+	void eat()
 	{
 		System.out.println("class A eat");
 	}  
